@@ -18,7 +18,7 @@ The recording is made of 6 videos, each lasting one minute (except the last one,
 - rap
 - metal
 
-Moreover, the disc format is also annotation in parallel with the following categories:
+Moreover, the disc format is also annotated in parallel with the following categories:
 
 - cd
 - vinyl
