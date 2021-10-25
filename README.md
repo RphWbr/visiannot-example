@@ -4,9 +4,11 @@ This repository contains an example dataset in order to familiarize with **ViSiA
 
 Once **ViSiAnnoT** is installed, open a console and go to the directory where you stored this repository. You may launch **ViSiAnnoT** with the following command line::
 
-    $ python3 -m visiannot -c example.ini -n
+    $ python3 -m visiannot -c example_1.ini -n
 
-The configuration file is ``example.ini``. The option ``-n`` disables the configuration GUI. You may remove this option in order to launch the configuration GUI before ViSiAnnoT GUI.
+The configuration file is ``example_1.ini``. The option ``-n`` disables the configuration GUI. You may remove this option in order to launch the configuration GUI before ViSiAnnoT GUI.
+
+Another configuration file is provided and may be tested: ``example_2.ini``. Contrary to ``example_1.ini``, events annotation is disabled but image extraction is enabled. Moreover, there is intervals data.
 
 The dataset is stored in the folder ``data``. The annotations are stored in the folder ``Annotations``.
 
