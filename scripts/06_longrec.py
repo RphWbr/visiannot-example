@@ -8,7 +8,7 @@ video_dict = {}
 video_dict["vid_0"] = [dir_vid, "vid_*.mp4", '_', 1, "%Y-%m-%dT%H-%M-%S"]
 
 # signal directory
-dir_sig = "../data/signal_sync"
+dir_sig = "../data/signal"
 
 # define plot style
 plot_style_dot = {
@@ -33,7 +33,7 @@ signal_dict["Rand"] = [
 ]
 
 # interval directory
-dir_inter = "../data/interval_sync"
+dir_inter = "../data/interval"
 
 # interval configuration
 interval_dict = {}
@@ -42,8 +42,22 @@ interval_dict["Sin"] = [
     [dir_inter, "intervalB_*.txt", '_', 1, "%Y-%m-%dT%H-%M-%S", '', -1, (255, 200, 0, 50)]
 ]
 
+# event annotation dictionary
+annotevent_dict = {}
+annotevent_dict["Label-1"] = [200, 105, 0, 50]
+annotevent_dict["Label-2"] = [105, 205, 0, 50]
+
+# image annotation dictionary
+annotimage_list = ["Label-A", "Label-B"]
+
 # create ViSiAnnoT window
 win_visiannot = ViSiAnnoTLongRec(
-    video_dict, signal_dict, interval_dict=interval_dict,
-    flag_pause_status=True
+    video_dict, signal_dict,
+    interval_dict=interval_dict,
+    flag_pause_status=True,
+    temporal_range=(0, 45),
+    annotevent_dict=annotevent_dict,
+    annotimage_list=annotimage_list,
+    from_cursor_list=[(0, 10), (0, 20), (0, 30)],
+    layout_mode=2
 )

@@ -30,3 +30,5 @@ Moreover, the disc format is also annotated in parallel with the following categ
 Some fake signals are also provided for illustrating the features of **ViSiAnnoT**.
 
 It is possible to create a custom configuration file in order to familiarize with the features of **ViSiAnnoT**. Then, the value of the argument ``-c`` must be changed accordingly. See [documentation about editing a configuration file](https://visiannot.readthedocs.io/en/latest/userguide-configuration.html#editing-a-configuration-file).
+
+A set of scripts is also provided, so that the user may explore the different features of **ViSiAnnoT** and how to use it in a script.

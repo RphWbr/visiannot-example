@@ -1,8 +1,8 @@
 from visiannot.visiannot import ViSiAnnoT
 
 # signal path
-dir_sig = "../data/signal_sync"
-path_sin = "%s/sin_2021-06-21T15-16-00.h5" % dir_sig
+dir_data = "../data/data_single"
+path_sin = "%s/sin_2021-06-21T15-16-00.h5" % dir_data
 
 # signal configuration
 signal_dict = {}
@@ -11,9 +11,8 @@ signal_dict["sin"] = [
 ]
 
 # interval paths
-dir_inter = "../data/interval_sync"
-path_interval_a = "%s/intervalA_2021-06-21T15-16-00.txt" % dir_inter
-path_interval_b = "%s/intervalB_2021-06-21T15-16-00.txt" % dir_inter
+path_interval_a = "%s/intervalA_2021-06-21T15-16-00.txt" % dir_data
+path_interval_b = "%s/intervalB_2021-06-21T15-16-00.txt" % dir_data
 
 # interval configuration
 interval_dict = {}

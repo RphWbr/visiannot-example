@@ -9,7 +9,7 @@ video_dict = {}
 video_dict["vid_0"] = [path_video, '_', 1, "%Y-%m-%dT%H-%M-%S"]
 
 # signal paths
-dir_sig = "../data/signal_sync"
+dir_sig = "../data/data_single"
 path_sin = "%s/sin_2021-06-21T15-16-00.h5" % dir_sig
 path_rand = "%s/rand_2021-06-21T15-16-00.txt" % dir_sig
 
@@ -26,7 +26,7 @@ signal_dict = {}
 
 signal_dict["Sin"] = [
     [path_sin, '_', 1, "%Y-%m-%dT%H-%M-%S", "sin", "sin/freq", None],
-    [path_sin, '_', 1, "%Y-%m-%dT%H-%M-%S", "dots", 0, plot_style_dot]
+    [path_sin, '_', 1, "%Y-%m-%dT%H-%M-%S", "dots - value", 0, plot_style_dot]
 ]
 
 # create ViSiAnnoT window

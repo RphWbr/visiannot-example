@@ -3,7 +3,7 @@
 from visiannot.visiannot import ViSiAnnoT
 
 # signal paths
-dir_sig = "../data/signal_sync"
+dir_sig = "../data/data_single"
 path_sin = "%s/sin_2021-06-21T15-16-00.h5" % dir_sig
 path_rand = "%s/rand_2021-06-21T15-16-00.txt" % dir_sig
 
